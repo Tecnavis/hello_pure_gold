@@ -15,7 +15,7 @@
                 <!-- <strong>newsletter</strong> -->
                 <p>Contact details</p>
                 <div class="news-letter-items baba-flex-col">
-                    <p>+971  43490037</p>
+                    <p>+971 45702217</p>
                     <p>+971 501341604</p>
                     <p>hellopuregoldllc@gmail.com</p>
                 </div>
