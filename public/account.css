@@ -1,0 +1,102 @@
+
+
+.account-forum-container > h1{
+    color: var(--color-dark-gold);
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.account-forum-container > details{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: all 1.5 linear;
+}
+
+.account-forum-container ul{
+    margin-left: 35px;
+    flex-direction: column;
+    display: flex;
+    gap: 7px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+td:first-child {
+    font-weight: bold;
+    /* text-align: right;
+    background-color: #f0f0f0; */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.funding-wrap{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.funding-wrap > .deposit{
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+
+.funding-wrap > .company{
+    flex-direction: column;
+    display: flex;
+    gap: 35px;
+}
+
+.deposit > h3 > dfn{
+    color: #da9e16;
+}
+
+.crypto-wllt{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+
+.currency{
+    flex-basis: 25%;
+}
+
+.currency > img{
+    width: 100%;
+    object-fit: fill;
+}
+
+.currency > h3{
+    padding-bottom: 25px;
+}
+
+.other-wrap{
+    padding-top: 25px;
+}
+
+.deposit{
+    padding-bottom: 50px;
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+}

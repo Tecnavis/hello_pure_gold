@@ -1,0 +1,173 @@
+.sub-head{
+    background-image: url(/images/subheadimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+}
+
+.sub-head > h1{
+    color: #ffffff;
+    padding: 50px;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
+
+.overlay-el{
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.baba-svc-container{
+    padding: 100px 120px;
+}
+
+.baba-svc-container h3{
+    color: var(--sa-custom-v1);
+}
+
+.baba-svc-container > h2{
+    justify-content: center;
+    color: var(--color-dark-gold);
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+/* .baba-svc-container{
+    background-color: #e7e7e7;
+    padding-bottom: 105px;
+} */
+
+.card{
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,.1);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 30%;
+    gap: 30px;
+    border: none;
+}
+
+.card > img{
+    width: 55px;
+    height: 55px;
+}
+
+.svc-cntnt > h4{
+    color: white;
+    padding-bottom: 25px;
+}
+
+.svc-cntnt > p{
+    color: white;
+    line-height: 23px;
+}
+
+.svc-cntnt > span {
+    position: relative;
+    top: 10px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.svc-cntnt > span {
+    font-size: 12px;
+}
+
+.cards-container{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cards-container > .card:nth-child(odd) {
+    background-color: var(--color-bg);
+}  
+
+.cards-container > .card:nth-child(even){
+    background-color: #504324;
+}
+
+.svc-gllry-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.svc-img{
+    max-width: 40%;
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+}
+
+.svc-ctnt{
+    height: 19rem;
+    border-radius: 20px;
+    width: 98%;
+}
+
+.svc-ctnt > h3{
+    padding: 20px 0;
+}
+
+.svc-img > figure > img{
+    height: 19rem;
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tradingview-widget-container{
+    padding: 0 100px 100px;
+}
+
+.tradingview-widget-container-slide{
+    width: 45%;
+    margin: auto;
+}
+
+.tradingview-widget-container > h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.baba-prd-cntnr{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px 90px;
+}
+
+.product-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.baba-prd-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.gold-wrap{
+    flex-direction: column;
+    display: flex;
+    gap: 50px;
+}
+
+.product-img > img{
+    width: 250px;
+    height: 250px;
+}
