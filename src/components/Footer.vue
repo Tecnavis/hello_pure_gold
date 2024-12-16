@@ -13,15 +13,17 @@
             </div>
             <div class="news-letter baba-flex-col">
                 <!-- <strong>newsletter</strong> -->
-                <p>Contact details</p>
+                <p>Contact details - Dubai branch</p>
                 <div class="news-letter-items baba-flex-col">
-                    <p>+971 45702217</p>
-                    <p>+971 501341604</p>
+                    <p>+971 45702217, +971 561130204</p>
                     <p>hellopuregoldllc@gmail.com</p>
+                    <p>Ahmad Al Hammadi Building, office # 203,Al Musalla Road, Deira, Dubai, UAE</p>
                 </div>
-                <p>Address</p>
-                <div class="news-letter-items baba-flex">
-                    <p>Office # 168, Level # 6, Gold Center Building, Deira, Gold Souk - Dubai, United Arab Emirates,</p>
+                <p>Contact details - Bangladesh branch</p>
+                 <div class="news-letter-items baba-flex-col">
+                     <p>+88001304100304</p>
+                    <p>hellopuregold.bd@gmail.com</p>
+                    <p>Rupayan FPAB Tower,37 Culvert Road,Nayapaltan, Dhaka -1000, Bangladesh</p>
                 </div>
                 <!-- <div class="email">
                     <input type="text" class="mail-input">
